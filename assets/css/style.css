@@ -254,6 +254,13 @@ html, body {
     text-transform: uppercase;
 }
 
+.hero h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+
 .job-title {
     font-size: 20px;
     margin-bottom: 30px;

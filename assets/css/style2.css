@@ -38,7 +38,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
  
-.icon-twitter:before { content: '\f099'; } /* '' */
+.icon-twitter-circled:before { content: '\f099'; } /* '' */
 .icon-orcid2:before { content: '\e800'; } /* '' */
 .icon-linkedin:before { content: '\f0e1'; } /* '' */
 .icon-up:before { content: '\f176'; } /* '' */
@@ -61,6 +61,14 @@ a:hover {
 
 h4 {
     font-size: 30px;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
 }
 
 /* Buttons */ 
@@ -245,8 +253,15 @@ html, body {
     text-transform: uppercase;
 }
 
+.hero h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+
 .job-title {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 30px;
     line-height: 1;
 } 
@@ -413,6 +428,18 @@ html, body {
     font-weight: 700;
     color: #fff;
 }
+ 
+.portfolio-item-info h5 {
+    margin: 0 0 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.portfolio-item-info h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #fff;
+}
 
 .portfolio-item-info a {
     padding: 6px 7px 4px;
@@ -561,7 +588,7 @@ html, body {
     -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 
-a.twitter-bg:hover {color: #55acee;}
+a.twitter-circled-bg:hover {color: #55acee;}
 a.orcid-bg:hover{color: #a7cf36;}
 a.linkedin-bg:hover {color: #dd4b39;}
 a.icon-up-bg:hover {color: #212121;}

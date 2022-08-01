@@ -9,7 +9,7 @@
 /* FONT
 ================================================== */
 @font-face {
-  font-family: 'fontello';
+  font-family: 'fontello'; 'FontAwesome';
   src: url('../fonts/fontello.eot?37927580');
   src: url('../fonts/fontello.eot?37927580#iefix') format('embedded-opentype'),
        url('../fonts/fontello.woff2?37927580') format('woff2'),
@@ -39,8 +39,9 @@
 }
  
 .icon-twitter:before { content: '\f099'; } /* '' */
-.icon-orcid2:before { content: '\e800'; } /* '' */
 .icon-linkedin:before { content: '\f0e1'; } /* '' */
+.icon-orcid:before { content: '\e800'; } /* '' */
+.icon-github:before { content: '\f300'; } /* '' */
 .icon-up:before { content: '\f176'; } /* '' */
 
 /* CUSTOM RESETS
@@ -562,8 +563,9 @@ html, body {
 }
 
 a.twitter-bg:hover {color: #55acee;}
-a.orcid-bg:hover{color: #a7cf36;}
 a.linkedin-bg:hover {color: #dd4b39;}
+a.orcid-bg:hover{color: #a7cf36;}
+a.github-bg:hover{color: #a7cf36;}
 a.icon-up-bg:hover {color: #212121;}
 
 .copyright {

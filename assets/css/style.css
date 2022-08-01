@@ -64,6 +64,14 @@ h4 {
     font-size: 30px;
 }
 
+h5 {
+    font-size: 25px;
+}
+
+h6 {
+    font-size: 17px;
+}
+
 /* Buttons */ 
 .btn {
     min-width: 145px;
@@ -415,6 +423,18 @@ html, body {
     color: #fff;
 }
 
+.portfolio-item-info h5 {
+    margin: 0 0 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.portfolio-item-info h6 {
+    margin: 0 0 17px;
+    font-weight: 700;
+    color: #fff;
+}
+
 .portfolio-item-info a {
     padding: 6px 7px 4px;
     font-size: 12px;
@@ -563,9 +583,9 @@ html, body {
 }
 
 a.twitter-bg:hover {color: #55acee;}
-a.linkedin-bg:hover {color: #dd4b39;}
+a.linkedin-bg:hover {color: #0e76a8;}
 a.orcid-bg:hover{color: #a7cf36;}
-a.github-bg:hover{color: #a7cf36;}
+a.github-bg:hover{color: #171515;}
 a.icon-up-bg:hover {color: #212121;}
 
 .copyright {
